@@ -1,6 +1,10 @@
 # SIG-Surveillance
-An NJIT research group dedicated on learning their per-semester surveillance topic
-Current Tree:
+
+An NJIT research group dedicated to learning about its per-semester surveillance topic.
+
+Current tree:
+
+```text
 ALPRSfall26/
   authorities/
     cases/
@@ -16,3 +20,4 @@ ALPRSfall26/
     reports/
     testimony/
     vendors/
+```
