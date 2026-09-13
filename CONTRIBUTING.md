@@ -8,9 +8,9 @@ project Google Drive folder as potentially public and permanent.
 Do **not** upload or commit incident reports, police records, medical or
 psychiatric records, personally identifying information, or any document that
 identifies a minor. This prohibition applies to drafts and working files in
-Google Drive as well as to Git commits. In particular, Dumont incident
-reports, including copies kept on a contributor's machine, never enter this
-repository or its Drive folder.
+Google Drive as well as to Git commits. Incident reports and police records,
+including a contributor's own records, never enter this repository or its Drive
+folder.
 
 If a source contains sensitive material, do not upload it for later review.
 Ask the project lead for a redaction decision using a description that omits
