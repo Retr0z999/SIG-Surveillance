@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ALPRS Fall 2026 | Documents</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="shell">
+    <header class="masthead">
+      <p class="eyebrow">SIG Surveillance</p>
+      <h1>ALPRS Fall 2026</h1>
+      <p class="intro">A public catalog of project documents. Select a filename to open its current PDF in Google Drive.</p>
+      <a class="drive-link" id="drive-link" href="" target="_blank" rel="noopener">Open Google Drive workspace <span aria-hidden="true">↗</span></a>
+    </header>
+
+    <section class="catalog" aria-labelledby="catalog-title">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Document index</p>
+          <h2 id="catalog-title">Project files</h2>
+        </div>
+        <span class="count" id="document-count">0 files</span>
+      </div>
+      <div id="document-list" class="document-list" aria-live="polite"></div>
+    </section>
+
+    <footer>
+      <a href="https://github.com/" id="repository-link">Repository</a>
+      <span>Catalog maintained in Git</span>
+    </footer>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
