@@ -10,7 +10,7 @@ recognition and surveillance project.
 	of each PDF in those folders.
 - `data/` contains datasets and data documentation.
 - `records/` contains collected records and supporting materials.
-- `reports/` contains project reports and analysis.
+- `analysis/` contains project reports and analysis.
 - `requests/` contains public-records requests and related correspondence.
 - `sources/` contains empirical sources, reports, testimony, and vendor
 	materials.

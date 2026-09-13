@@ -7,14 +7,12 @@ const categories = [
   ["sources", "Sources"]
 ];
 
-const driveLink = document.getElementById("drive-link");
 const documentList = document.getElementById("document-list");
 const documentCount = document.getElementById("document-count");
 
 fetch("documents.json")
   .then((response) => response.json())
   .then((catalog) => {
-    driveLink.href = catalog.driveFolder;
     renderDocuments(catalog.documents);
   })
   .catch(() => {

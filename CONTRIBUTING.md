@@ -21,7 +21,7 @@ the sensitive content.
 2. Remove personal information that is not necessary for the research record.
 3. Check that no one's, medical information, address, phone number, or other sensitive personal data remains.
 4. Use a descriptive filename and place the file in the matching
-   `ALPRSfall26/` authority, record, request, source, or report folder.
+   `ALPRSfall26/` authority, record, request, source, or analysis folder.
 5. Add a short relevance note to the folder README when the document is a
    primary source.
 
