@@ -14,7 +14,7 @@ const documentCount = document.getElementById("document-count");
 fetch("documents.json")
   .then((response) => response.json())
   .then((catalog) => {
-    driveLink.href = catalog.driveFolder;
+    driveLink.href = sanitizeUrl(catalog.driveFolder);
     renderDocuments(catalog.documents);
   })
   .catch(() => {
@@ -45,7 +45,7 @@ function renderDocuments(documents) {
         <ul>
           ${group.files.map((document) => `
             <li>
-              <a href="${escapeAttribute(document.url)}" target="_blank" rel="noopener">
+              <a href="${sanitizeUrl(document.url)}" target="_blank" rel="noopener">
                 <span class="file-icon" aria-hidden="true">PDF</span>
                 <span>${escapeHtml(document.name)}</span>
                 <span class="arrow" aria-hidden="true">↗</span>
@@ -67,6 +67,14 @@ function escapeHtml(value) {
   }[character]));
 }
 
-function escapeAttribute(value) {
-  return escapeHtml(value).replace(/javascript:/gi, "");
+function sanitizeUrl(value) {
+  try {
+    const parsed = new URL(String(value), window.location.href);
+    if (parsed.protocol === "http:" || parsed.protocol === "https:") {
+      return parsed.href;
+    }
+  } catch (_) {
+    // fall through
+  }
+  return "#";
 }
