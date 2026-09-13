@@ -1,8 +1,9 @@
 ﻿# Directives
 
-This folder contains New Jersey directives governing automated license plate
-reader (ALPR) use. These documents are primary authorities for the project's
-research into how ALPR systems are authorized, operated, and constrained.
+This folder contains New Jersey directive documents concerning automated
+license plate reader (ALPR) use. They are preserved as primary-source files;
+issuing authority, effective dates, and supersession should be checked against
+official releases before making a current-law claim.
 
 ## Documents
 
@@ -15,5 +16,6 @@ research into how ALPR systems are authorized, operated, and constrained.
 - [dir-2022-12.pdf](dir-2022-12.pdf): Updated Directive 2022-12 regulating
 	the use of ALPR technology.
 
-Together, these documents provide the policy timeline for changes in New
-Jersey's ALPR governance.
+Together, these documents can be used to investigate changes in New Jersey's
+ALPR policy. This README does not assert that any one document is currently
+controlling.

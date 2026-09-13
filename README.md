@@ -1,10 +1,15 @@
 # SIG-Surveillance
 
-An NJIT research group dedicated to learning about its per-semester surveillance topic.
+A public research repository for documenting automated license plate
+recognition and related surveillance materials. Repository ownership and
+institutional affiliation should be confirmed before being described as an
+official NJIT publication.
 
-[Document catalog source](ALPRSfall26/docs/) for browsing PDF filenames and opening their current files in Google Drive. Enable GitHub Pages for the catalog's full interface; setup instructions are in [`ALPRSfall26/docs/README.md`](ALPRSfall26/docs/README.md).
+[Document catalog source](ALPRSfall26/docs/) lists reviewed PDF filenames and
+opens their individual Google Drive copies. It does not publish the Drive
+working folder.
 
-The catalog source is [`ALPRSfall26/docs/documents.json`](ALPRSfall26/docs/documents.json). GitHub Pages serves the catalog; Google Drive stores the working PDFs and this repository stores historical snapshots.
+The catalog source is [`ALPRSfall26/docs/documents.json`](ALPRSfall26/docs/documents.json). GitHub Pages serves the catalog; Google Drive may store approved working copies, while this repository stores historical snapshots.
 
 Current tree:
 
