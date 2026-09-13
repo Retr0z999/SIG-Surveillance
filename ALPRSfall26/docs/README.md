@@ -4,10 +4,12 @@ This folder contains the GitHub Pages catalog for the ALPRS Fall 2026 project. T
 
 ## Add a PDF
 
-1. Upload the PDF to Google Drive.
-2. Set its sharing permissions so the intended audience can open it.
-3. Copy the file URL.
-4. Add an object to `documents.json`:
+1. Confirm the PDF passes the repository's [contribution rules](../../CONTRIBUTING.md).
+2. Upload only the approved PDF to Google Drive, not an unreviewed folder of
+  working files.
+3. Set its sharing permissions so the intended audience can open it.
+4. Copy the file URL.
+5. Add an object to `documents.json`:
 
 ```json
 {
