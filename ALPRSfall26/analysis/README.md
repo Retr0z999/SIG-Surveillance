@@ -1,4 +1,4 @@
-﻿# Reports
+﻿# Analysis
 
 Project reports and analysis belong here. Each report should identify its
 authors, date, scope, methods, source set, limitations, and whether its claims
