@@ -5,12 +5,10 @@ project Google Drive folder as potentially public and permanent.
 
 ## Absolute exclusion
 
-Do **not** upload or commit incident reports, police records, medical or
-psychiatric records, personally identifying information, or any document that
+Do **not** upload or commit incident reports, police records, personally identifying information, or any document that
 identifies a minor. This prohibition applies to drafts and working files in
-Google Drive as well as to Git commits. Documents obtained from OPRAmachine,
-agency websites, or any other outside source must be reviewed for third-party
-personal information before they enter this repository or its Drive folder.
+Google Drive as well as to Git commits. Incident reports and police records, never enter this repository or its Drive
+folder.
 
 If a source contains sensitive material, do not upload it for later review.
 Ask the project lead for a redaction decision using a description that omits
@@ -21,9 +19,7 @@ the sensitive content.
 1. Confirm that the document is public or that the project has permission to
    publish it.
 2. Remove personal information that is not necessary for the research record.
-3. Check that the document contains no minor's identity, medical information,
-   psychiatric history, address, phone number, or other sensitive personal
-   data.
+3. Check that no one's, medical information, address, phone number, or other sensitive personal data remains.
 4. Use a descriptive filename and place the file in the matching
    `ALPRSfall26/` authority, record, request, source, or analysis folder.
 5. Add a short relevance note to the folder README when the document is a
